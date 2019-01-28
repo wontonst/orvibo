@@ -2,7 +2,7 @@
 Module to manipulate Orvibo devices, such as [s20 wifi sockets](http://www.aliexpress.com/item/Orvibo-S20-Wifi-Cell-Phone-Power-Socket-Wireless-Timer-Switch-Wall-Plug-Phone-Wireless-Remote-Control/32357053063.html) and [AllOne IR blasters](http://www.aliexpress.com/item/Orvibo-Allone-Wiwo-R1-Intelligent-house-Control-Center-Smart-Home-WIFI-IR-RF-Wireless-Remote-Switch/32247638788.html) to control whatever devices via emiting IR signal (TVs, AV receivers, air conditioners, etc)
 
 
-## Refferences
+## References
 * Lots of info was found in [ninja-allone](https://github.com/Grayda/ninja-allone/blob/master/lib/allone.js) library
 * S20 data analysis by anonymous is [here](http://pastebin.com/0w8N7AJD)
 * [python-orvibo](https://github.com/happyleavesaoc/python-orvibo) similar module, but currently supports Orvibo S20 sockets only.
@@ -20,6 +20,10 @@ Module to manipulate Orvibo devices, such as [s20 wifi sockets](http://www.aliex
 ## Requires
 * Python (tested on Win7 with python 2.7 and python 3.4 and Ubuntu with python 3.2)
  
+## Installation
+
+This package is not on PyPI but you can clone or download this package and run `pip install /path/to/orvibo`
+
 ## Known applications
 *please let me know about apps not listed here :octocat:*
 * [OpenHAB](https://community.openhab.org/t/orvibo-allone-ir-blaster-guide/9111) guide by community user [@robinson](https://community.openhab.org/users/robinson)
